@@ -3,5 +3,7 @@
 	
 	<UnarmedAlert_ColonistUnarmed>Colonist unarmed</UnarmedAlert_ColonistUnarmed>
 	<UnarmedAlert_ColonistUnarmedDesc>A colonist is unarmed. Find them a weapon.</UnarmedAlert_ColonistUnarmedDesc>
+	<UnarmedAlert_IncludeGuests>Include guest colonists</UnarmedAlert_IncludeGuests>
+	<UnarmedAlert_IncludeSlaves>Include slaves</UnarmedAlert_IncludeSlaves>
 	
 </LanguageData>

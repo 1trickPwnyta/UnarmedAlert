@@ -12,7 +12,7 @@ namespace UnarmedAlert
             List<Pawn> culprits = new List<Pawn>();
             PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_FreeColonists.ForEach(pawn => 
             {
-                if ((pawn.Spawned || pawn.IsCaravanMember()) && pawn.equipment.Primary == null && !pawn.Downed && !pawn.WorkTagIsDisabled(WorkTags.Violent) && !pawn.IsSlave) culprits.Add(pawn);
+                if (pawn.equipment.Primary == null && (pawn.Spawned || pawn.IsCaravanMember()) && (UnarmedAlertSettings.IncludeGuests || (!pawn.HasExtraMiniFaction() && !pawn.HasExtraHomeFaction())) && !pawn.Downed && !pawn.WorkTagIsDisabled(WorkTags.Violent) && (UnarmedAlertSettings.IncludeSlaves || !pawn.IsSlave)) culprits.Add(pawn);
             });
             return culprits;
         }
