@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Unarmed Alert</name>
+	<author>1trickPwnyta</author>
+	<packageId>unarmedalert.1trickPwnyta</packageId>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<description>
+Adds an alert to the game (right side of the screen) when you have one or more colonists who are unarmed. Ignores non-violent, imprisoned, or downed colonists, and slaves.
+	</description>
+	<url>https://github.com/1trickPwnyta/UnarmedAlert</url>
+</ModMetaData>
