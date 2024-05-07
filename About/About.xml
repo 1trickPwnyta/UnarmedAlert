@@ -10,6 +10,7 @@
 Adds an alert to the game (right side of the screen) when you have one or more colonists who are unarmed. Ignores non-violent, imprisoned, or downed colonists. Settings allow you to include or ignore guests, slaves, and children.
 
 === Updates ===
+05/07/2024: Ignore pawns in mental state
 05/06/2024: Add setting to include or ignore children
 04/10/2024: Add settings to include or ignore guests and slaves
 04/10/2024: Ignore guests
