@@ -3,18 +3,24 @@
 	<name>Unarmed Alert</name>
 	<author>1trickPwnyta</author>
 	<packageId>unarmedalert.1trickPwnyta</packageId>
+	<modVersion>1.2.3</modVersion>
 	<supportedVersions>
 		<li>1.5</li>
+		<li>1.6</li>
 	</supportedVersions>
 	<description>
 Adds an alert to the game (right side of the screen) when you have one or more colonists who are unarmed. Ignores non-violent, imprisoned, or downed colonists. Settings allow you to include or ignore guests, slaves, and children.
 
 === Updates ===
+06/17/2025: Update to 1.6
 07/31/2024: Ignore pawns incapable of manipulation
 05/07/2024: Ignore pawns in mental state
 05/06/2024: Add setting to include or ignore children
 04/10/2024: Add settings to include or ignore guests and slaves
 04/10/2024: Ignore guests
+
+=== Credits ===
+Mod icon: twitter.com/mouse_draws
 	</description>
 	<url>https://github.com/1trickPwnyta/UnarmedAlert</url>
 </ModMetaData>
